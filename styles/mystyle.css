@@ -1,0 +1,85 @@
+*{
+    font-family: figtree;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(47, 88%, 63%) ;
+    min-height: 100vh;
+}
+
+
+p{
+    font-size: 12px;
+}
+
+h1{
+    font-family:figtree;
+    font-weight: 800;
+    font-size:19px;
+    
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.content{
+    display:flex;
+    background-color: hsl(0, 0%, 100%);
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width:min-content;
+    padding:15px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 5px 5px  black;
+}
+
+.attribution { 
+    margin-top: 10px;
+    font-size: 11px; text-align: center; 
+}
+    
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.greg-id{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: max-content;
+    height: min-content;
+}
+
+#greg-img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+#box{
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 3px 7px ;
+    font-weight: bold;
+    width: min-content;
+}
+
+img{
+    max-width: 250px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'MyCustomFont'; 
+    src: url('/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype'); 
+}
